@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "account_id": 1,
+    "inbox_id": 1,
+    "status": "open",
+    "last_activity_at": "2025-05-19T10:30:00.000Z",
+    "meta": {
+      "sender": {
+        "id": 1,
+        "name": "João Silva",
+        "email": "joao@example.com",
+        "custom_attributes": {
+          "dataPreenchimento": "18/05/2025",
+          "origem": "Instagram",
+          "nome": "João Silva",
+          "email": "joao@example.com",
+          "whatsapp": "5541999999999",
+          "instagram": "@joaosilva",
+          "idade": "28",
+          "objetivos": "Perder peso e ganhar massa muscular",
+          "meta": "Emagrecer 10kg em 3 meses",
+          "dores": "Falta de energia, dores nas costas",
+          "oportunidadeIdeal": "Programa completo com nutricionista"
+        }
+      },
+      "assignee": null
+    }
+  },
+  {
+    "id": 2,
+    "account_id": 1,
+    "inbox_id": 1,
+    "status": "open",
+    "last_activity_at": "2025-05-18T14:45:00.000Z",
+    "meta": {
+      "sender": {
+        "id": 2,
+        "name": "Maria Oliveira",
+        "email": "maria@example.com",
+        "custom_attributes": {
+          "dataPreenchimento": "17/05/2025",
+          "origem": "Facebook",
+          "nome": "Maria Oliveira",
+          "email": "maria@example.com",
+          "whatsapp": "5541988888888",
+          "instagram": "@mariaoliveira",
+          "idade": "35",
+          "objetivos": "Preparar para maratona",
+          "meta": "Completar maratona em menos de 4h",
+          "dores": "Fadiga nas pernas, baixa resistência",
+          "oportunidadeIdeal": "Plano de treino personalizado"
+        }
+      },
+      "assignee": {
+        "id": 1,
+        "name": "Atendente 1"
+      }
+    }
+  }
+]

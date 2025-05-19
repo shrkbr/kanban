@@ -1,0 +1,10 @@
+cat > .eslintrc.json << 'EOL'
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "quotes": "off",
+    "indent": "off",
+    "react/prop-types": "off",
+    "no-undef": "off"
+  }
+}
